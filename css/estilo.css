@@ -1,0 +1,54 @@
+.tituloPrincipal h1{
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(233, 42, 17);
+}
+
+.tituloPrincipal i{
+    font-size: 3rem;
+    color: rgb(252, 252, 252);
+}
+
+body{
+    background-color:#212529;
+    overflow-x: hidden;
+}
+
+.imagenGaleria { 
+    border-radius: 1rem;
+    padding: 0.4rem;
+    max-width: 150%;
+    height: auto;
+    filter: grayscale(50%);
+    transition: all 0.3s ease;
+}
+
+.imagenGaleria:hover{
+    filter:grayscale(0%);
+    transform:scale(1.03);
+}
+
+h1,h2{
+    color: aliceblue;
+}
+
+.galeria{
+   display: flex;
+   justify-content: center;
+   padding: 0.5rem;
+}
+
+.card{
+    width: 25rem;
+}
+
+#QUIENESSOMOS{
+    align-content: center;
+    align-items: center;
+    color: rgb(233, 42, 17);
+}
+
+.card-text{
+    font-family: 'Raleway', sans-serif;
+}
